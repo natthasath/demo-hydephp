@@ -1,4 +1,4 @@
-# 🎉 DEMO Laravel HydePHP
+# 🎉 DEMO HydePHP
 
 HydePHP is a fast and developer-friendly static site generator for Laravel, designed to create Markdown-powered blogs, documentation sites, and Blade-based web pages. It offers simplicity, flexibility, and deep Laravel integration, making content management efficient.
 
