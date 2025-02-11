@@ -1,6 +1,6 @@
-# 🎉 DEMO Laravel Breeze
+# 🎉 DEMO Laravel HydePHP
 
-Laravel Breeze is a lightweight, minimalistic starter kit for Laravel, providing pre-built authentication scaffolding, views, and controllers to help developers quickly set up user registration, login, and password reset functionality in their Laravel applications.
+HydePHP is a fast and developer-friendly static site generator for Laravel, designed to create Markdown-powered blogs, documentation sites, and Blade-based web pages. It offers simplicity, flexibility, and deep Laravel integration, making content management efficient.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
@@ -11,13 +11,15 @@ Laravel Breeze is a lightweight, minimalistic starter kit for Laravel, providing
 - Create Project
 
 ```shell
-composer create-project laravel/laravel example-app
+composer create-project hyde/hyde
 ```
 
-- Install Package
+- Usage
 
 ```shell
-composer require laravel/breeze --dev
+php hyde info
+php hyde make:post "My First Post"
+php hyde make:page "About Me"
 ```
 
 - Configure Environment
@@ -28,9 +30,7 @@ cp .env.example .env
 
 - Migrate
 
-```
-php artisan breeze:install
- 
+``` 
 php artisan migrate
 npm install
 npm run dev
@@ -41,5 +41,6 @@ npm run dev
 - [http://localhost:8000/](http://localhost:8000/) username : `admin` password : `admin`
 
 ```shell
-php artisan serve
+php hyde build
+php hyde serve
 ```
